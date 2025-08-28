@@ -23,7 +23,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <Image alt="logo" src="/vercel.svg" height={10} width={10}></Image>
+          <Link href="/">
+            <Image alt="logo" src="/vercel.svg" height={10} width={10}></Image>
+          </Link>
         </div>
         <div>
           <ul className="flex justify-between items-center gap-[30px]">
