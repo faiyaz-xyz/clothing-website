@@ -24,7 +24,8 @@ const Navbar = () => {
         </div>
         <div>
           <Link href="/">
-            <Image alt="logo" src="/vercel.svg" height={10} width={10}></Image>
+            <h1>VOILA</h1>
+            {/* <Image alt="logo" src="/vercel.svg" height={10} width={10}></Image> */}
           </Link>
         </div>
         <div>
