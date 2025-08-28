@@ -1,29 +1,49 @@
-import { Link } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { LuUserRound } from "react-icons/lu";
+import { LuShoppingCart } from "react-icons/lu";
+import { LuHeart } from "react-icons/lu";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav>
+    <div className="m-4">
+      <nav className="flex justify-between items-center">
         <div>
-          <div>Menu</div>
-          <ul>
+          <ul className="flex justify-between items-center gap-[30px]">
             <li>
-              <Link href="/">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/">Collections</Link>
+              <Link href="/collections">Collections</Link>
             </li>
             <li>
-              <Link href="/">New</Link>
+              <Link href="/new">New</Link>
             </li>
           </ul>
         </div>
         <div>
           <Image alt="logo" src="/vercel.svg" height={10} width={10}></Image>
         </div>
-        <div></div>
+        <div>
+          <ul className="flex justify-between items-center gap-[30px]">
+            <li>
+              <Link href="/wishlist">
+                <LuHeart />
+              </Link>
+            </li>
+            <li>
+              <Link href="/cart">
+                <LuShoppingCart />
+              </Link>
+            </li>
+            <li>
+              <Link href="/profile">
+                <LuUserRound />
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   );
