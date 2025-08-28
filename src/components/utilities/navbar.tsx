@@ -7,7 +7,7 @@ import { LuHeart } from "react-icons/lu";
 
 const Navbar = () => {
   return (
-    <div className="m-4">
+    <div className="m-4 select-none">
       <nav className="flex justify-between items-center">
         <div>
           <ul className="flex justify-between items-center gap-[30px]">
