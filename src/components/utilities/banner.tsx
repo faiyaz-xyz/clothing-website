@@ -17,9 +17,9 @@ const Banner = () => {
     <div className="flex justify-between items-center px-10 py-20 select-none">
       {/* Left Triangles */}
       <div className="flex flex-col">
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
       </div>
 
       {/* Center Text */}
@@ -53,9 +53,9 @@ const Banner = () => {
 
       {/* Right Triangles */}
       <div className="flex flex-col">
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
-        <Image src="/vercel.svg" alt="pic 1" width={150} height={150} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
+        <Image src="/image.png" alt="pic 1" width={175} height={175} />
       </div>
     </div>
   );
